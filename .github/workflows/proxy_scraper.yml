@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add http_proxies.json socks4_proxies.json socks5_proxies.json all_proxies.json
+          git add results/*.json
           git commit -m "Automated proxy list update: $(date -u)" || echo "No changes to commit"
           git push
         continue-on-error: true
@@ -38,8 +38,4 @@ jobs:
         with:
           name: proxy-results
           path: |
-            http_proxies.json
-            socks4_proxies.json
-            socks5_proxies.json
-            all_proxies.json
-ECHO is on.
+            results/*.json
