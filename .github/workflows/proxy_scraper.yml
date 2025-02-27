@@ -1,0 +1,44 @@
+name: Proxy Scraper Automation
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:  # Allows manual execution
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install aiohttp rich
+
+      - name: Run Proxy Scraper
+        run: python scraper.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add http_proxies.json socks4_proxies.json socks5_proxies.json all_proxies.json
+          git commit -m "Automated proxy list update: $(date -u)" || echo "No changes to commit"
+          git push
+        continue-on-error: true
+
+      - name: Upload Results as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: proxy-results
+          path: |
+            http_proxies.json
+            socks4_proxies.json
+            socks5_proxies.json
+            all_proxies.json
