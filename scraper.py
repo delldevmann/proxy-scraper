@@ -27,8 +27,13 @@ class ProxyScraper:
         self.apis = {
             'http': [
                 "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
+                "https://raw.githubusercontent.com/r00tee/Proxy-List/refs/heads/main/Https.txt",
+                "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt",
+                "https://raw.githubusercontent.com/mmpx12/proxy-list/refs/heads/master/http.txt",
+                "https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/http.txt",
                 "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt",
                 "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt",
+                "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/refs/heads/master/https.txt",
                 "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt",
                 "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json",
                 "https://api.proxyscrape.com/?request=getproxies&proxytype=http"
