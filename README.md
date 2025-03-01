@@ -1,11 +1,11 @@
-# Bob's Proxy Bopper
+# Advanced Proxy Scraper
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/delldevmann/proxy-scraper)
 ![GitHub issues](https://img.shields.io/github/issues/delldevmann/proxy-scraper)
 ![Python version](https://img.shields.io/badge/python-3.7%2B-blue)
 ![License](https://img.shields.io/github/license/delldevmann/proxy-scraper)
 
-Agent Bob scrapes and validates tagging geolocation via the AS registration. Automatically fetches, validates, and exports proxies with detailed information about their location, anonymity level, and performance metrics.
+An advanced proxy scraper and validator with geolocation capabilities. Automatically fetches, validates, and exports proxies with detailed information about their location, anonymity level, and performance metrics.
 
 ## Features
 
@@ -20,48 +20,48 @@ Agent Bob scrapes and validates tagging geolocation via the AS registration. Aut
 
 ## Latest Results
 
-### Summary (Last updated: 2025-03-01 12:40:03)
+### Summary (Last updated: 2025-03-01 18:47:45)
 
 | Proxy Type | Total Found | Working | Success Rate | Export Path |
 |------------|-------------|---------|--------------|-------------|
-| HTTP | 30,939 | 381 | 1.2% | [results/http](results/http/) |
-| SOCKS4 | 2,698 | 183 | 6.8% | [results/socks4](results/socks4/) |
-| SOCKS5 | 1,901 | 203 | 10.7% | [results/socks5](results/socks5/) |
-| **TOTAL** | **35,538** | **767** | **2.2%** | [results/](results/) |
+| HTTP | 33,744 | 608 | 1.8% | [results/http](results/http/) |
+| SOCKS4 | 2,644 | 161 | 6.1% | [results/socks4](results/socks4/) |
+| SOCKS5 | 2,018 | 263 | 13.0% | [results/socks5](results/socks5/) |
+| **TOTAL** | **38,406** | **1,032** | **2.7%** | [results/](results/) |
 
 ### Country Distribution
 
 ```
-United States  : 207 (27.0%)
-China          : 59 (7.7%)
-Germany        : 53 (6.9%)
-United Kingdom : 44 (5.7%)
-India          : 40 (5.2%)
-France         : 37 (4.8%)
-Japan          : 29 (3.8%)
-South Korea    : 25 (3.3%)
-Brazil         : 17 (2.2%)
-Other          : 39 (5.1%)
+United States  : 266 (25.8%)
+China          : 162 (15.7%)
+United Kingdom : 54 (5.2%)
+Germany        : 51 (4.9%)
+France         : 47 (4.6%)
+India          : 45 (4.4%)
+South Korea    : 27 (2.6%)
+Japan          : 20 (1.9%)
+Singapore      : 17 (1.6%)
+Other          : 69 (6.7%)
 ```
 
 ### Anonymity Levels
 
 ```
-Elite       : 18 (2.3%)
-Anonymous   : 3 (0.4%)
-Transparent : 63 (8.2%)
-Unknown     : 683 (89.0%)
+Elite       : 46 (4.5%)
+Anonymous   : 2 (0.2%)
+Transparent : 108 (10.5%)
+Unknown     : 876 (84.9%)
 ```
 
 ### Sample HTTP Proxies
 
 | Proxy | Country | City | Anonymity | Latency |
 |-------|---------|------|-----------|---------|
-| 80.249.112.163:80 | China | Guangzhou | Unknown | 466ms |
-| 8.211.195.173:80 | United Kingdom | London | Unknown | 2257ms |
-| 72.10.160.91:14595 | India | Chennai | Unknown | 9999ms |
-| 8.209.96.245:5060 | Germany | Frankfurt am Main | Unknown | 9999ms |
-| 13.38.153.36:80 | France | Paris | Unknown | 270ms |
+| 3.71.239.218:3128 | Germany | Frankfurt am Main | Unknown | 187ms |
+| 185.154.194.174:3128 | United States | Boydton | Transparent | 1223ms |
+| 203.89.8.107:80 | South Korea | Seoul | Unknown | 1792ms |
+| 72.10.164.178:6397 | Argentina | Quilmes | Elite | 807ms |
+| 47.237.92.86:86 | Singapore | Singapore | Unknown | 2473ms |
 
 [View all HTTP proxies](results/http/latest.txt) • [View all SOCKS4 proxies](results/socks4/latest.txt) • [View all SOCKS5 proxies](results/socks5/latest.txt)
 
