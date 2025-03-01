@@ -1,4 +1,4 @@
-# Advanced Proxy Scraper
+# Bob's Proxy Bopper
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/delldevmann/proxy-scraper)
 ![GitHub issues](https://img.shields.io/github/issues/delldevmann/proxy-scraper)
