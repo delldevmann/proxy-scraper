@@ -327,7 +327,7 @@ An advanced proxy scraper and validator with geolocation capabilities. Automatic
 | Proxy Type | Total Found | Working | Success Rate | Export Path |
 |------------|-------------|---------|--------------|-------------|
 """
-
+    
     # Add rows for each proxy type
     for proxy_type in ["http", "socks4", "socks5"]:
         if proxy_type in summary:
@@ -341,3 +341,134 @@ An advanced proxy scraper and validator with geolocation capabilities. Automatic
     
     # Add country distribution
     readme += """### Country Distribution
+
+```
+"""
+    
+    # Add top countries (up to 10)
+    for country, count in sorted_countries[:min(9, len(sorted_countries))]:
+        percentage = (count / total_working * 100) if total_working > 0 else 0
+        readme += f"{country.ljust(15)}: {count} ({percentage:.1f}%)\n"
+    
+    # Add "Other" for the rest
+    if len(sorted_countries) > 9:
+        other_count = sum(count for _, count in sorted_countries[9:])
+        other_percentage = (other_count / total_working * 100) if total_working > 0 else 0
+        readme += f"{'Other'.ljust(15)}: {other_count} ({other_percentage:.1f}%)\n"
+    
+    readme += """```
+
+### Anonymity Levels
+
+```
+"""
+    
+    # Add anonymity levels
+    for level, count in all_anonymity.items():
+        if level != "Unknown" or all_anonymity["Unknown"] > 0:  # Skip Unknown if it's 0
+            percentage = (count / total_working * 100) if total_working > 0 else 0
+            readme += f"{level.ljust(12)}: {count} ({percentage:.1f}%)\n"
+    
+    readme += """```
+
+### Sample HTTP Proxies
+
+| Proxy | Country | City | Anonymity | Latency |
+|-------|---------|------|-----------|---------|
+"""
+    
+    # Add sample proxies
+    for proxy in sample_proxies:
+        latency = f"{proxy['latency']}ms" if isinstance(proxy['latency'], (int, float)) else proxy['latency']
+        readme += f"| {proxy['proxy']} | {proxy['country']} | {proxy['city']} | {proxy['anonymity']} | {latency} |\n"
+    
+    readme += """
+[View all HTTP proxies](results/http/latest.txt) • [View all SOCKS4 proxies](results/socks4/latest.txt) • [View all SOCKS5 proxies](results/socks5/latest.txt)
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/delldevmann/proxy-scraper.git
+cd proxy-scraper
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Basic Usage
+
+```bash
+python scraper.py
+```
+
+This will scrape all proxy types and save them to the `results` directory in JSON format.
+
+### Advanced Options
+
+```bash
+# Scrape only HTTP proxies with a 5-second timeout
+python scraper.py -t http --timeout 5
+
+# Scrape SOCKS5 proxies with higher concurrency and export as CSV
+python scraper.py -t socks5 -c 200 -f csv
+
+# Scrape all proxy types but limit to finding 500 working proxies
+python scraper.py -m 500
+
+# Full options
+python scraper.py [-t TYPE] [-c CONCURRENT] [--timeout SECONDS] 
+                [-o OUTPUT_DIR] [-f FORMAT] [-v] [-m MAX]
+                [--no-anonymity]
+```
+
+### Command Line Arguments
+
+| Argument | Description | Default |
+|----------|-------------|---------|
+| `-t, --type` | Proxy type to scrape (http, socks4, socks5, all) | all |
+| `-c, --concurrent` | Maximum concurrent connections | 100 |
+| `--timeout` | Connection timeout in seconds | 3 |
+| `-o, --output` | Output directory for results | results |
+| `-f, --format` | Output format (json, txt, csv, all) | json |
+| `-v, --verbose` | Enable verbose output | False |
+| `-m, --max` | Maximum number of proxies to find | None |
+| `--no-anonymity` | Disable anonymity checking | False |
+
+## Automated Updates
+
+This repository automatically updates proxy lists every 6 hours using GitHub Actions.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+"""
+
+    # Write README
+    with open(output_file, "w") as f:
+        f.write(readme)
+    
+    print(f"README generated: {output_file}")
+    return True
+
+def main():
+    parser = argparse.ArgumentParser(description="Post-process proxy scraper results")
+    parser.add_argument("-d", "--dir", type=str, default="results",
+                      help="Directory containing result files (default: results)")
+    parser.add_argument("-o", "--output", type=str, default="README.md",
+                      help="Output path for README.md (default: README.md)")
+    parser.add_argument("--no-cleanup", action="store_true",
+                      help="Don't delete original files after organizing")
+    
+    args = parser.parse_args()
+    
+    # Organize the results
+    summary = organize_results(args.dir, args.no_cleanup)
+    
+    # Generate README
+    generate_readme(summary, args.output)
+
+if __name__ == "__main__":
+    main()
