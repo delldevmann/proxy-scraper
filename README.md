@@ -5,7 +5,7 @@
 ![Python version](https://img.shields.io/badge/python-3.7%2B-blue)
 ![License](https://img.shields.io/github/license/delldevmann/proxy-scraper)
 
-An advanced proxy scraper and validator with geolocation capabilities. Automatically fetches, validates, and exports proxies with detailed information about their location, anonymity level, and performance metrics.
+Agent Bob scrapes and validates tagging geolocation via the AS registration. Automatically fetches, validates, and exports proxies with detailed information about their location, anonymity level, and performance metrics.
 
 ## Features
 
