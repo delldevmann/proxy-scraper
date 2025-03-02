@@ -10,31 +10,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: 🔄 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: ⚙️ Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: 📦 Install Dependencies (Handles Missing requirements.txt)
         run: |
-          pip install -r requirements.txt
+          if [ -f requirements.txt ]; then 
+            echo "Installing dependencies from requirements.txt..."
+            pip install -r requirements.txt
+          else 
+            echo "⚠️ No requirements.txt found, skipping installation."
+          fi
 
-      - name: Run Proxy Scraper
+      - name: 🌐 Run Proxy Scraper
         run: python scraper.py
 
-      - name: Run Post-Processing Script
+      - name: 🔍 Run Post-Processing Script
         run: python tools/post_process.py
 
-      - name: Fetch Latest Changes (Avoid Merge Conflicts)
+      - name: 🔄 Fetch Latest Changes (Avoid Merge Conflicts)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git pull --rebase origin main || echo "No remote changes to pull"
 
-      - name: Commit and Push Results
+      - name: 📤 Commit and Push Results
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -42,7 +47,7 @@ jobs:
           git commit -m "Automated proxy list update: $(date -u)" || echo "No changes to commit"
           git push origin main
 
-      - name: Upload Results as Artifact
+      - name: 📁 Upload Results as Artifact
         uses: actions/upload-artifact@v4
         with:
           name: proxy-results
