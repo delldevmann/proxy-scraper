@@ -1,4 +1,4 @@
-# Advanced Proxy Scraper
+# Delldevman's Proxy Scrubber
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/delldevmann/proxy-scraper)
 ![GitHub issues](https://img.shields.io/github/issues/delldevmann/proxy-scraper)
@@ -20,48 +20,48 @@ An advanced proxy scraper and validator with geolocation capabilities. Automatic
 
 ## Latest Results
 
-### Summary (Last updated: 2025-03-01 18:47:45)
+### Summary (Last updated: 2025-03-02 01:32:14)
 
 | Proxy Type | Total Found | Working | Success Rate | Export Path |
 |------------|-------------|---------|--------------|-------------|
-| HTTP | 33,744 | 608 | 1.8% | [results/http](results/http/) |
-| SOCKS4 | 2,644 | 161 | 6.1% | [results/socks4](results/socks4/) |
-| SOCKS5 | 2,018 | 263 | 13.0% | [results/socks5](results/socks5/) |
-| **TOTAL** | **38,406** | **1,032** | **2.7%** | [results/](results/) |
+| HTTP | 32,485 | 681 | 2.1% | [results/http](results/http/) |
+| SOCKS4 | 2,730 | 176 | 6.4% | [results/socks4](results/socks4/) |
+| SOCKS5 | 2,047 | 287 | 14.0% | [results/socks5](results/socks5/) |
+| **TOTAL** | **37,262** | **1,144** | **3.1%** | [results/](results/) |
 
 ### Country Distribution
 
 ```
-United States  : 266 (25.8%)
-China          : 162 (15.7%)
-United Kingdom : 54 (5.2%)
-Germany        : 51 (4.9%)
-France         : 47 (4.6%)
-India          : 45 (4.4%)
-South Korea    : 27 (2.6%)
-Japan          : 20 (1.9%)
-Singapore      : 17 (1.6%)
-Other          : 69 (6.7%)
+United States  : 307 (26.8%)
+China          : 173 (15.1%)
+United Kingdom : 63 (5.5%)
+France         : 53 (4.6%)
+Germany        : 48 (4.2%)
+India          : 36 (3.1%)
+Japan          : 32 (2.8%)
+South Korea    : 30 (2.6%)
+Russia         : 25 (2.2%)
+Other          : 56 (4.9%)
 ```
 
 ### Anonymity Levels
 
 ```
-Elite       : 46 (4.5%)
-Anonymous   : 2 (0.2%)
-Transparent : 108 (10.5%)
-Unknown     : 876 (84.9%)
+Elite       : 91 (8.0%)
+Anonymous   : 3 (0.3%)
+Transparent : 138 (12.1%)
+Unknown     : 912 (79.7%)
 ```
 
 ### Sample HTTP Proxies
 
 | Proxy | Country | City | Anonymity | Latency |
 |-------|---------|------|-----------|---------|
-| 3.71.239.218:3128 | Germany | Frankfurt am Main | Unknown | 187ms |
-| 185.154.194.174:3128 | United States | Boydton | Transparent | 1223ms |
-| 203.89.8.107:80 | South Korea | Seoul | Unknown | 1792ms |
-| 72.10.164.178:6397 | Argentina | Quilmes | Elite | 807ms |
-| 47.237.92.86:86 | Singapore | Singapore | Unknown | 2473ms |
+| 72.10.160.170:28907 | United States | Newark | Elite | 220ms |
+| 42.112.22.6:80 | Vietnam | Ho Chi Minh City | Unknown | 1611ms |
+| 8.209.96.245:9080 | Germany | Frankfurt am Main | Unknown | 2182ms |
+| 8.212.151.166:8006 | Philippines | Manila | Unknown | 2515ms |
+| 47.119.22.92:8081 | China | Shenzhen | Unknown | 2488ms |
 
 [View all HTTP proxies](results/http/latest.txt) • [View all SOCKS4 proxies](results/socks4/latest.txt) • [View all SOCKS5 proxies](results/socks5/latest.txt)
 
