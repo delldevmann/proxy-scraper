@@ -22,7 +22,7 @@ from asyncio import Semaphore
 console = Console()
 
 class ProxyScraper:
-    def __init__(self, max_concurrent=100, timeout=3, output_dir="results", save_format="json", 
+    def __init__(self, max_concurrent=500, timeout=3, output_dir="results", save_format="json", 
                  verbose=False, check_anonymity=True, max_proxies=None):
         self.apis = {
             'http': [
