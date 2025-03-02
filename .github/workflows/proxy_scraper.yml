@@ -18,14 +18,10 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 📦 Install Dependencies (Handles Missing requirements.txt)
+      - name: 📦 Install Required Python Dependencies
         run: |
-          if [ -f requirements.txt ]; then 
-            echo "Installing dependencies from requirements.txt..."
-            pip install -r requirements.txt
-          else 
-            echo "⚠️ No requirements.txt found, skipping installation."
-          fi
+          echo "Installing dependencies..."
+          pip install aiohttp rich requests 
 
       - name: 🌐 Run Proxy Scraper
         run: python scraper.py
