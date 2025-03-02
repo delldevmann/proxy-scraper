@@ -26,17 +26,21 @@ class ProxyScraper:
                  verbose=False, check_anonymity=True, max_proxies=None):
         self.apis = {
             'http': [
-                "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
+                 "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
                 "https://raw.githubusercontent.com/r00tee/Proxy-List/refs/heads/main/Https.txt",
-                "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt",
+                "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
                 "https://raw.githubusercontent.com/mmpx12/proxy-list/refs/heads/master/http.txt",
                 "https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/http.txt",
                 "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt",
                 "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt",
                 "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/refs/heads/master/https.txt",
                 "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt",
-                "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json",
-                "https://api.proxyscrape.com/?request=getproxies&proxytype=http"
+                "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/refs/heads/main/http_proxies.txt",
+                "https://raw.githubusercontent.com/theriturajps/proxy-list/refs/heads/main/proxies.txt",
+                "https://raw.githubusercontent.com/andigwandi/free-proxy/refs/heads/main/proxy_list.txt",
+                "https://api.proxyscrape.com/?request=getproxies&proxytype=http",
+                "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/all.txt",
+                "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/HTTPS_RAW.txt"
             ],
             'socks4': [
                 "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt",
