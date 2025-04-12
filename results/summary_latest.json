@@ -1,33 +1,52 @@
 {
   "socks5": {
-    "timestamp": "2025-04-12 14:31:39",
-    "total_scraped": 1314,
-    "verified_proxies": 237,
-    "verification_success_rate": "18.0%",
+    "timestamp": "2025-04-12 20:26:39",
+    "total_scraped": 1436,
+    "verified_proxies": 244,
+    "verification_success_rate": "17.0%",
     "country_distribution": {
-      "United States": 59,
-      "United Kingdom": 21,
-      "Germany": 19,
+      "United States": 63,
+      "United Kingdom": 20,
+      "Germany": 18,
       "France": 18,
-      "India": 14,
-      "Japan": 11,
-      "South Korea": 10,
+      "India": 13,
       "China": 10,
-      "Brazil": 9,
-      "Singapore": 6
+      "Japan": 9,
+      "Russia": 9,
+      "South Korea": 7,
+      "Ireland": 6
     },
     "anonymity_distribution": {
-      "Unknown": 218,
-      "Transparent": 9,
-      "Elite": 10
+      "Unknown": 228,
+      "Elite": 5,
+      "Transparent": 11
     },
     "sample_proxies": {
-      "3.130.65.162:3128": {
-        "ip": "18.116.31.64",
+      "52.73.224.54:3128": {
+        "ip": "44.204.23.75",
         "type": "socks5",
         "anonymity": "Unknown",
-        "latency_ms": 29,
-        "last_checked": "2025-04-12 14:24:59",
+        "latency_ms": 6,
+        "last_checked": "2025-04-12 20:19:13",
+        "location": {
+          "country": "United States",
+          "countryCode": "US",
+          "region": "Virginia",
+          "city": "Ashburn",
+          "isp": "Amazon.com",
+          "org": "AWS EC2 (us-east-1)",
+          "as": "AS14618 Amazon.com, Inc.",
+          "timezone": "America/New_York",
+          "lat": 39.0438,
+          "lon": -77.4874
+        }
+      },
+      "18.223.25.15:80": {
+        "ip": "18.118.115.173",
+        "type": "socks5",
+        "anonymity": "Unknown",
+        "latency_ms": 25,
+        "last_checked": "2025-04-12 20:19:13",
         "location": {
           "country": "United States",
           "countryCode": "US",
@@ -41,50 +60,12 @@
           "lon": -83.1141
         }
       },
-      "63.32.1.88:3128": {
-        "ip": "46.137.49.213",
+      "35.178.104.4:80": {
+        "ip": "35.178.104.4",
         "type": "socks5",
         "anonymity": "Unknown",
-        "latency_ms": 138,
-        "last_checked": "2025-04-12 14:24:59",
-        "location": {
-          "country": "Ireland",
-          "countryCode": "IE",
-          "region": "Leinster",
-          "city": "Dublin",
-          "isp": "Amazon.com, Inc.",
-          "org": "AWS EC2 (eu-west-1)",
-          "as": "AS16509 Amazon.com, Inc.",
-          "timezone": "Europe/Dublin",
-          "lat": 53.3498,
-          "lon": -6.26031
-        }
-      },
-      "54.212.22.168:80": {
-        "ip": "54.185.136.199",
-        "type": "socks5",
-        "anonymity": "Unknown",
-        "latency_ms": 170,
-        "last_checked": "2025-04-12 14:24:59",
-        "location": {
-          "country": "United States",
-          "countryCode": "US",
-          "region": "Oregon",
-          "city": "Portland",
-          "isp": "Amazon.com, Inc.",
-          "org": "AWS EC2 (us-west-2)",
-          "as": "AS16509 Amazon.com, Inc.",
-          "timezone": "America/Los_Angeles",
-          "lat": 45.5235,
-          "lon": -122.676
-        }
-      },
-      "35.178.104.4:1080": {
-        "ip": "13.40.144.32",
-        "type": "socks5",
-        "anonymity": "Unknown",
-        "latency_ms": 230,
-        "last_checked": "2025-04-12 14:24:59",
+        "latency_ms": 163,
+        "last_checked": "2025-04-12 20:19:13",
         "location": {
           "country": "United Kingdom",
           "countryCode": "GB",
@@ -98,12 +79,94 @@
           "lon": -0.127758
         }
       },
-      "13.36.87.105:3128": {
-        "ip": "13.38.65.43",
+      "204.236.176.61:3128": {
+        "ip": "204.236.178.64",
         "type": "socks5",
         "anonymity": "Unknown",
-        "latency_ms": 174,
-        "last_checked": "2025-04-12 14:25:00",
+        "latency_ms": 146,
+        "last_checked": "2025-04-12 20:19:13",
+        "location": {
+          "country": "United States",
+          "countryCode": "US",
+          "region": "California",
+          "city": "San Jose",
+          "isp": "Amazon.com, Inc.",
+          "org": "AWS EC2 (us-west-1)",
+          "as": "AS16509 Amazon.com, Inc.",
+          "timezone": "America/Los_Angeles",
+          "lat": 37.3394,
+          "lon": -121.895
+        }
+      },
+      "54.228.164.102:3128": {
+        "ip": "18.203.88.137",
+        "type": "socks5",
+        "anonymity": "Unknown",
+        "latency_ms": 141,
+        "last_checked": "2025-04-12 20:19:14",
+        "location": {
+          "country": "Ireland",
+          "countryCode": "IE",
+          "region": "Leinster",
+          "city": "Dublin",
+          "isp": "Amazon Technologies Inc.",
+          "org": "AWS EC2 (eu-west-1)",
+          "as": "AS16509 Amazon.com, Inc.",
+          "timezone": "Europe/Dublin",
+          "lat": 53.3498,
+          "lon": -6.26031
+        }
+      }
+    }
+  },
+  "socks4": {
+    "timestamp": "2025-04-12 20:19:13",
+    "total_scraped": 2097,
+    "verified_proxies": 188,
+    "verification_success_rate": "9.0%",
+    "country_distribution": {
+      "United States": 43,
+      "Germany": 20,
+      "United Kingdom": 15,
+      "France": 15,
+      "India": 11,
+      "Japan": 10,
+      "Singapore": 7,
+      "China": 7,
+      "Brazil": 6,
+      "Ireland": 6
+    },
+    "anonymity_distribution": {
+      "Unknown": 183,
+      "Transparent": 2,
+      "Elite": 3
+    },
+    "sample_proxies": {
+      "3.9.71.167:3128": {
+        "ip": "18.175.49.250",
+        "type": "socks4",
+        "anonymity": "Unknown",
+        "latency_ms": 164,
+        "last_checked": "2025-04-12 20:17:44",
+        "location": {
+          "country": "United Kingdom",
+          "countryCode": "GB",
+          "region": "England",
+          "city": "London",
+          "isp": "Amazon Technologies Inc.",
+          "org": "AWS EC2 (eu-west-2)",
+          "as": "AS16509 Amazon.com, Inc.",
+          "timezone": "Europe/London",
+          "lat": 51.5074,
+          "lon": -0.127758
+        }
+      },
+      "13.37.59.99:3128": {
+        "ip": "13.37.234.50",
+        "type": "socks4",
+        "anonymity": "Unknown",
+        "latency_ms": 179,
+        "last_checked": "2025-04-12 20:17:44",
         "location": {
           "country": "France",
           "countryCode": "FR",
@@ -116,196 +179,133 @@
           "lat": 48.8566,
           "lon": 2.35222
         }
-      }
-    }
-  },
-  "socks4": {
-    "timestamp": "2025-04-12 14:24:59",
-    "total_scraped": 1998,
-    "verified_proxies": 181,
-    "verification_success_rate": "9.1%",
-    "country_distribution": {
-      "United States": 46,
-      "Germany": 20,
-      "United Kingdom": 19,
-      "France": 13,
-      "India": 12,
-      "Japan": 9,
-      "Ireland": 6,
-      "Singapore": 6,
-      "China": 6,
-      "Brazil": 5
-    },
-    "anonymity_distribution": {
-      "Unknown": 174,
-      "Elite": 4,
-      "Transparent": 3
-    },
-    "sample_proxies": {
-      "3.21.101.158:3128": {
-        "ip": "18.116.31.64",
+      },
+      "54.233.119.172:3128": {
+        "ip": "54.94.141.155",
         "type": "socks4",
         "anonymity": "Unknown",
-        "latency_ms": 47,
-        "last_checked": "2025-04-12 14:23:39",
+        "latency_ms": 227,
+        "last_checked": "2025-04-12 20:17:44",
         "location": {
-          "country": "United States",
-          "countryCode": "US",
-          "region": "Ohio",
+          "country": "Brazil",
+          "countryCode": "BR",
+          "region": "S\u00e3o Paulo",
+          "city": "S\u00e3o Paulo",
+          "isp": "Amazon Technologies Inc.",
+          "org": "AWS EC2 (sa-east-1)",
+          "as": "AS16509 Amazon.com, Inc.",
+          "timezone": "America/Sao_Paulo",
+          "lat": -23.5505,
+          "lon": -46.6333
+        }
+      },
+      "51.254.78.223:80": {
+        "ip": "51.254.78.223",
+        "type": "socks4",
+        "anonymity": "Unknown",
+        "latency_ms": 337,
+        "last_checked": "2025-04-12 20:17:44",
+        "location": {
+          "country": "Ireland",
+          "countryCode": "IE",
+          "region": "Leinster",
           "city": "Dublin",
-          "isp": "Amazon.com, Inc.",
-          "org": "AWS EC2 (us-east-2)",
-          "as": "AS16509 Amazon.com, Inc.",
-          "timezone": "America/New_York",
-          "lat": 40.0992,
-          "lon": -83.1141
+          "isp": "OVH SAS",
+          "org": "OVH Hosting Limited",
+          "as": "AS16276 OVH SAS",
+          "timezone": "Europe/Dublin",
+          "lat": 53.3341,
+          "lon": -6.25148
         }
       },
-      "3.130.65.162:80": {
-        "ip": "18.116.31.64",
+      "3.37.125.76:3128": {
+        "ip": "3.35.174.244",
         "type": "socks4",
         "anonymity": "Unknown",
-        "latency_ms": 23,
-        "last_checked": "2025-04-12 14:23:39",
+        "latency_ms": 382,
+        "last_checked": "2025-04-12 20:17:45",
         "location": {
-          "country": "United States",
-          "countryCode": "US",
-          "region": "Ohio",
-          "city": "Dublin",
+          "country": "South Korea",
+          "countryCode": "KR",
+          "region": "Seoul",
+          "city": "Seoul",
           "isp": "Amazon.com, Inc.",
-          "org": "AWS EC2 (us-east-2)",
+          "org": "AWS EC2 (ap-northeast-2)",
           "as": "AS16509 Amazon.com, Inc.",
-          "timezone": "America/New_York",
-          "lat": 40.0992,
-          "lon": -83.1141
-        }
-      },
-      "54.212.22.168:80": {
-        "ip": "54.185.136.199",
-        "type": "socks4",
-        "anonymity": "Unknown",
-        "latency_ms": 168,
-        "last_checked": "2025-04-12 14:23:39",
-        "location": {
-          "country": "United States",
-          "countryCode": "US",
-          "region": "Oregon",
-          "city": "Portland",
-          "isp": "Amazon.com, Inc.",
-          "org": "AWS EC2 (us-west-2)",
-          "as": "AS16509 Amazon.com, Inc.",
-          "timezone": "America/Los_Angeles",
-          "lat": 45.5235,
-          "lon": -122.676
-        }
-      },
-      "3.127.121.101:3128": {
-        "ip": "63.177.86.218",
-        "type": "socks4",
-        "anonymity": "Unknown",
-        "latency_ms": 229,
-        "last_checked": "2025-04-12 14:23:39",
-        "location": {
-          "country": "Germany",
-          "countryCode": "DE",
-          "region": "Hesse",
-          "city": "Frankfurt am Main",
-          "isp": "Amazon.com",
-          "org": "AWS EC2 (eu-central-1)",
-          "as": "AS16509 Amazon.com, Inc.",
-          "timezone": "Europe/Berlin",
-          "lat": 50.1109,
-          "lon": 8.68213
-        }
-      },
-      "198.199.86.11:8080": {
-        "ip": "198.199.86.11",
-        "type": "socks4",
-        "anonymity": "Elite",
-        "latency_ms": 9999,
-        "last_checked": "2025-04-12 14:23:39",
-        "location": {
-          "country": "United States",
-          "countryCode": "US",
-          "region": "New Jersey",
-          "city": "North Bergen",
-          "isp": "DigitalOcean, LLC",
-          "org": "DigitalOcean, LLC",
-          "as": "AS14061 DigitalOcean, LLC",
-          "timezone": "America/New_York",
-          "lat": 40.7964,
-          "lon": -74.0203
+          "timezone": "Asia/Seoul",
+          "lat": 37.5665,
+          "lon": 126.978
         }
       }
     }
   },
   "http": {
-    "timestamp": "2025-04-12 14:23:38",
-    "total_scraped": 230602,
-    "verified_proxies": 1772,
+    "timestamp": "2025-04-12 20:17:43",
+    "total_scraped": 232552,
+    "verified_proxies": 1904,
     "verification_success_rate": "0.8%",
     "country_distribution": {
-      "United States": 477,
-      "China": 424,
-      "Germany": 169,
-      "United Kingdom": 66,
+      "United States": 536,
+      "China": 482,
+      "Germany": 170,
+      "United Kingdom": 62,
       "Singapore": 55,
-      "India": 51,
-      "South Korea": 48,
-      "Indonesia": 36,
-      "Japan": 34,
-      "France": 31
+      "India": 50,
+      "South Korea": 43,
+      "Indonesia": 37,
+      "Japan": 30,
+      "The Netherlands": 28
     },
     "anonymity_distribution": {
-      "Unknown": 1565,
-      "Elite": 124,
-      "Transparent": 83
+      "Unknown": 1656,
+      "Transparent": 93,
+      "Elite": 155
     },
     "sample_proxies": {
-      "104.129.194.45:10011": {
-        "ip": "104.129.194.45",
+      "193.42.159.252:80": {
+        "ip": "193.42.159.252",
         "type": "http",
         "anonymity": "Unknown",
-        "latency_ms": 32,
-        "last_checked": "2025-04-12 12:26:27",
+        "latency_ms": 190,
+        "last_checked": "2025-04-12 18:18:28",
         "location": {
-          "country": "United States",
-          "countryCode": "US",
-          "region": "Virginia",
-          "city": "Reston",
-          "isp": "ZSCALER, INC.",
-          "org": "Zscaler, Inc.",
-          "as": "AS22616 ZSCALER, INC.",
-          "timezone": "America/New_York",
-          "lat": 38.9552,
-          "lon": -77.3381
+          "country": "Sweden",
+          "countryCode": "SE",
+          "region": "\u00d6sterg\u00f6tland County",
+          "city": "Link\u00f6ping",
+          "isp": "TELE2/ SWIPNET",
+          "org": "UCS Group AB",
+          "as": "AS1257 Tele2 Sverige AB",
+          "timezone": "Europe/Stockholm",
+          "lat": 58.3948,
+          "lon": 15.5665
         }
       },
-      "101.200.158.109:8008": {
-        "ip": "101.200.158.109",
+      "120.26.104.146:3128": {
+        "ip": "120.26.104.146",
         "type": "http",
         "anonymity": "Unknown",
-        "latency_ms": 2527,
-        "last_checked": "2025-04-12 12:26:37",
+        "latency_ms": 2471,
+        "last_checked": "2025-04-12 18:18:35",
         "location": {
           "country": "China",
           "countryCode": "CN",
-          "region": "Beijing",
-          "city": "Beijing",
-          "isp": "Hangzhou Alibaba Advertising Co",
-          "org": "Aliyun Computing Co., LTD",
+          "region": "Zhejiang",
+          "city": "Hangzhou",
+          "isp": "Hangzhou Alibaba Advertising Co., Ltd.",
+          "org": "Alibaba.com LLC",
           "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
           "timezone": "Asia/Shanghai",
-          "lat": 39.911,
-          "lon": 116.395
+          "lat": 30.2943,
+          "lon": 120.1663
         }
       },
-      "8.130.34.237:5555": {
-        "ip": "8.130.34.237",
+      "8.130.34.44:9091": {
+        "ip": "8.130.34.44",
         "type": "http",
         "anonymity": "Unknown",
-        "latency_ms": 2547,
-        "last_checked": "2025-04-12 12:26:37",
+        "latency_ms": 2578,
+        "last_checked": "2025-04-12 18:18:35",
         "location": {
           "country": "China",
           "countryCode": "CN",
@@ -319,42 +319,42 @@
           "lon": 116.395
         }
       },
-      "8.130.39.117:3129": {
-        "ip": "8.130.39.117",
+      "54.212.162.236:3128": {
+        "ip": "18.236.255.129",
         "type": "http",
         "anonymity": "Unknown",
-        "latency_ms": 2572,
-        "last_checked": "2025-04-12 12:26:37",
+        "latency_ms": 162,
+        "last_checked": "2025-04-12 18:18:35",
         "location": {
-          "country": "China",
-          "countryCode": "CN",
-          "region": "Beijing",
-          "city": "Beijing",
-          "isp": "Hangzhou Alibaba Advertising Co., Ltd.",
-          "org": "Alibaba.com LLC",
-          "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
-          "timezone": "Asia/Shanghai",
-          "lat": 39.911,
-          "lon": 116.395
+          "country": "United States",
+          "countryCode": "US",
+          "region": "Oregon",
+          "city": "Portland",
+          "isp": "Amazon.com, Inc.",
+          "org": "AWS EC2 (us-west-2)",
+          "as": "AS16509 Amazon.com, Inc.",
+          "timezone": "America/Los_Angeles",
+          "lat": 45.5235,
+          "lon": -122.676
         }
       },
-      "203.3.113.29:1080": {
-        "ip": "203.3.113.29",
+      "14.163.153.53:5105": {
+        "ip": "14.247.229.191",
         "type": "http",
         "anonymity": "Unknown",
-        "latency_ms": 541,
-        "last_checked": "2025-04-12 12:26:39",
+        "latency_ms": 1049,
+        "last_checked": "2025-04-12 18:18:38",
         "location": {
-          "country": "China",
-          "countryCode": "CN",
-          "region": "Zhejiang",
-          "city": "Hangzhou",
-          "isp": "No.293, Wanbao Avenue",
-          "org": "Chinanet GD",
-          "as": "AS63835 CT-HuNan-Changsha-IDC",
-          "timezone": "Asia/Shanghai",
-          "lat": 30.2943,
-          "lon": 120.1663
+          "country": "Vietnam",
+          "countryCode": "VN",
+          "region": "Nam \u0110\u1ecbnh Province",
+          "city": "Nam \u0110\u1ecbnh",
+          "isp": "VNPT",
+          "org": "Vietnam Posts and Telecommunications Group",
+          "as": "AS45899 VNPT Corp",
+          "timezone": "Asia/Bangkok",
+          "lat": 20.4353,
+          "lon": 106.1784
         }
       }
     }
