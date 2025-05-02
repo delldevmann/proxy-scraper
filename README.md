@@ -1,9 +1,9 @@
 # Proxy Scraper Summary
 
-_Last Updated: 2025-05-02 13:58:49_
+_Last Updated: 2025-05-02 19:51:04_
 
 | Proxy Type | Total Scraped | Verified Proxies | Verification Success Rate |
 |------------|--------------|------------------|--------------------------|
-| HTTP | 157,390 | 941 | 0.6% |
-| SOCKS4 | 1,964 | 31 | 1.6% |
-| SOCKS5 | 1,353 | 75 | 5.5% |
+| HTTP | 158,520 | 1,040 | 0.7% |
+| SOCKS4 | 2,218 | 40 | 1.8% |
+| SOCKS5 | 1,811 | 88 | 4.9% |
