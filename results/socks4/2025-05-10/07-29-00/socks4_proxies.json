@@ -1,0 +1,988 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-10 07:29:00",
+    "type": "socks4",
+    "total_scraped": 2201,
+    "verified_proxies": 50,
+    "verification_success_rate": "2.3%",
+    "version": "1.2.0"
+  },
+  "country_distribution": {
+    "China": 9,
+    "United States": 8,
+    "Germany": 5,
+    "Poland": 4,
+    "Hong Kong": 3,
+    "South Korea": 3,
+    "Ukraine": 3,
+    "United Arab Emirates": 2,
+    "Singapore": 2,
+    "The Netherlands": 2,
+    "Japan": 1,
+    "Malaysia": 1,
+    "Thailand": 1,
+    "Russia": 1,
+    "France": 1,
+    "Tanzania": 1,
+    "United Kingdom": 1,
+    "Bangladesh": 1,
+    "India": 1
+  },
+  "anonymity_distribution": {
+    "Unknown": 47,
+    "Elite": 2,
+    "Transparent": 1
+  },
+  "proxies": {
+    "47.56.110.204:8989": {
+      "ip": "47.56.110.204",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:31",
+      "location": {
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "region": "Kowloon",
+        "city": "Hong Kong",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Hong_Kong",
+        "lat": 22.3193,
+        "lon": 114.169
+      }
+    },
+    "79.110.201.235:8081": {
+      "ip": "79.110.201.235",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 560,
+      "last_checked": "2025-05-10 07:27:32",
+      "location": {
+        "country": "Poland",
+        "countryCode": "PL",
+        "region": "Lower Silesia",
+        "city": "Wroclaw",
+        "isp": "Korbank S. A.",
+        "org": "Korbank sp. z o.o.",
+        "as": "AS35179 Korbank S. A.",
+        "timezone": "Europe/Warsaw",
+        "lat": 51.0792,
+        "lon": 17.0265
+      }
+    },
+    "23.247.136.248:80": {
+      "ip": "23.247.136.248",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 1282,
+      "last_checked": "2025-05-10 07:27:33",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "California",
+        "city": "San Jose",
+        "isp": "",
+        "org": "Black Mesa Corporation",
+        "as": "AS46997 Black Mesa Corporation",
+        "timezone": "America/Los_Angeles",
+        "lat": 37.3387,
+        "lon": -121.8852
+      }
+    },
+    "8.130.34.237:8000": {
+      "ip": "8.130.34.237",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2539,
+      "last_checked": "2025-05-10 07:27:37",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Beijing",
+        "city": "Beijing",
+        "isp": "Alibaba.com Singapore E-Commerce Private Limited",
+        "org": "Aliyun Computing Co.",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 39.911,
+        "lon": 116.395
+      }
+    },
+    "47.91.121.127:8888": {
+      "ip": "47.91.121.127",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2383,
+      "last_checked": "2025-05-10 07:27:40",
+      "location": {
+        "country": "United Arab Emirates",
+        "countryCode": "AE",
+        "region": "Dubai",
+        "city": "Dubai",
+        "isp": "Alibaba Cloud LLC",
+        "org": "ALICLOUD-UAE",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Dubai",
+        "lat": 25.0734,
+        "lon": 55.2979
+      }
+    },
+    "101.132.222.120:80": {
+      "ip": "101.132.222.120",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 853,
+      "last_checked": "2025-05-10 07:27:42",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Shanghai",
+        "city": "Shanghai",
+        "isp": "Hangzhou Alibaba Advertising Co",
+        "org": "Aliyun Computing Co., LTD",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 31.2222,
+        "lon": 121.4581
+      }
+    },
+    "209.97.150.167:8080": {
+      "ip": "209.97.150.167",
+      "type": "socks4",
+      "anonymity": "Elite",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:43",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "New Jersey",
+        "city": "Clifton",
+        "isp": "DigitalOcean, LLC",
+        "org": "DigitalOcean, LLC",
+        "as": "AS14061 DigitalOcean, LLC",
+        "timezone": "America/New_York",
+        "lat": 40.8364,
+        "lon": -74.1403
+      }
+    },
+    "188.68.52.244:80": {
+      "ip": "188.68.52.244",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 520,
+      "last_checked": "2025-05-10 07:27:44",
+      "location": {
+        "country": "Germany",
+        "countryCode": "DE",
+        "region": "Bavaria",
+        "city": "Nuremberg",
+        "isp": "netcup GmbH",
+        "org": "NETCUP-GMBH",
+        "as": "AS197540 netcup GmbH",
+        "timezone": "Europe/Berlin",
+        "lat": 49.4423,
+        "lon": 11.0191
+      }
+    },
+    "47.91.89.3:11": {
+      "ip": "47.91.89.3",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2194,
+      "last_checked": "2025-05-10 07:27:46",
+      "location": {
+        "country": "Germany",
+        "countryCode": "DE",
+        "region": "Hesse",
+        "city": "Frankfurt am Main",
+        "isp": "Alibaba.com LLC",
+        "org": "ALICLOUD-GM",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Europe/Berlin",
+        "lat": 50.1169,
+        "lon": 8.6837
+      }
+    },
+    "97.74.87.226:80": {
+      "ip": "97.74.87.226",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2519,
+      "last_checked": "2025-05-10 07:27:47",
+      "location": {
+        "country": "Japan",
+        "countryCode": "JP",
+        "region": "Chiba",
+        "city": "Chiba",
+        "isp": "GoDaddy.com, LLC",
+        "org": "GoDaddy.com, LLC",
+        "as": "AS26496 GoDaddy.com, LLC",
+        "timezone": "Asia/Tokyo",
+        "lat": 35.6074,
+        "lon": 140.107
+      }
+    },
+    "47.250.159.65:9098": {
+      "ip": "47.250.159.65",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2454,
+      "last_checked": "2025-05-10 07:27:48",
+      "location": {
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "region": "Kuala Lumpur",
+        "city": "Kuala Lumpur",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Kuala_Lumpur",
+        "lat": 3.1398,
+        "lon": 101.6853
+      }
+    },
+    "8.213.222.157:104": {
+      "ip": "8.213.222.157",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2504,
+      "last_checked": "2025-05-10 07:27:50",
+      "location": {
+        "country": "Thailand",
+        "countryCode": "TH",
+        "region": "Bangkok",
+        "city": "Bangkok",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com Singapore E-Commerce Private Limited",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Bangkok",
+        "lat": 13.7499,
+        "lon": 100.517
+      }
+    },
+    "47.238.134.126:81": {
+      "ip": "47.238.134.126",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:51",
+      "location": {
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "region": "Kowloon",
+        "city": "Hong Kong",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Hong_Kong",
+        "lat": 22.3193,
+        "lon": 114.169
+      }
+    },
+    "47.238.60.156:18081": {
+      "ip": "47.238.60.156",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:51",
+      "location": {
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "region": "Kowloon",
+        "city": "Hong Kong",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Hong_Kong",
+        "lat": 22.3193,
+        "lon": 114.169
+      }
+    },
+    "95.66.244.250:8080": {
+      "ip": "95.66.244.250",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:56",
+      "location": {
+        "country": "Russia",
+        "countryCode": "RU",
+        "region": "Vladimir Oblast",
+        "city": "Vladimir",
+        "isp": "Limited Liability Company \"VLADINFO\"",
+        "org": "IP Tanchuk Marina Nikolaevna",
+        "as": "AS35645 Limited Liability Company \"VLADINFO\"",
+        "timezone": "Europe/Moscow",
+        "lat": 56.1342,
+        "lon": 40.3888
+      }
+    },
+    "47.90.167.27:8081": {
+      "ip": "47.90.167.27",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2019,
+      "last_checked": "2025-05-10 07:27:57",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "Virginia",
+        "city": "Charlottesville",
+        "isp": "Alibaba.com LLC",
+        "org": "ALICLOUD-US",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "America/Chicago",
+        "lat": 37.4316,
+        "lon": -78.6569
+      }
+    },
+    "198.49.68.80:80": {
+      "ip": "198.49.68.79",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:58",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "Florida",
+        "city": "Orlando",
+        "isp": "HostDime.com, Inc.",
+        "org": "HostDime.com, Inc.",
+        "as": "AS33182 HostDime.com, Inc.",
+        "timezone": "America/New_York",
+        "lat": 28.5751,
+        "lon": -81.2
+      }
+    },
+    "47.237.113.119:6379": {
+      "ip": "47.237.113.119",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:27:59",
+      "location": {
+        "country": "Singapore",
+        "countryCode": "SG",
+        "region": "North West",
+        "city": "Singapore",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Singapore",
+        "lat": 1.35208,
+        "lon": 103.82
+      }
+    },
+    "46.35.9.110:80": {
+      "ip": "46.35.9.110",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 507,
+      "last_checked": "2025-05-10 07:28:00",
+      "location": {
+        "country": "France",
+        "countryCode": "FR",
+        "region": "\u00cele-de-France",
+        "city": "Paris",
+        "isp": "Societe Francaise Du Radiotelephone - SFR SA",
+        "org": "Business Internet",
+        "as": "AS15557 Societe Francaise Du Radiotelephone - SFR SA",
+        "timezone": "Europe/Paris",
+        "lat": 48.8566,
+        "lon": 2.35222
+      }
+    },
+    "176.9.239.181:80": {
+      "ip": "176.9.239.181",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 403,
+      "last_checked": "2025-05-10 07:28:05",
+      "location": {
+        "country": "Germany",
+        "countryCode": "DE",
+        "region": "Saxony",
+        "city": "Falkenstein",
+        "isp": "Hetzner Online GmbH",
+        "org": "Carlos Balete",
+        "as": "AS24940 Hetzner Online GmbH",
+        "timezone": "Europe/Berlin",
+        "lat": 50.4777,
+        "lon": 12.3649
+      }
+    },
+    "101.71.143.237:8092": {
+      "ip": "101.71.143.237",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 828,
+      "last_checked": "2025-05-10 07:28:05",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Zhejiang",
+        "city": "Hangzhou",
+        "isp": "China Unicom Zhejiang Province Network",
+        "org": "",
+        "as": "AS4837 CHINA UNICOM China169 Backbone",
+        "timezone": "Asia/Shanghai",
+        "lat": 30.2943,
+        "lon": 120.1663
+      }
+    },
+    "41.59.90.171:80": {
+      "ip": "41.59.65.202",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:07",
+      "location": {
+        "country": "Tanzania",
+        "countryCode": "TZ",
+        "region": "Lindi",
+        "city": "Lindi",
+        "isp": "TTCL",
+        "org": "",
+        "as": "AS33765 TANZANIA TELECOMMUNICATIONS CO. LTD",
+        "timezone": "Africa/Dar_es_Salaam",
+        "lat": -10.0011,
+        "lon": 39.7199
+      }
+    },
+    "8.211.49.86:9050": {
+      "ip": "8.211.49.86",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2198,
+      "last_checked": "2025-05-10 07:28:09",
+      "location": {
+        "country": "Germany",
+        "countryCode": "DE",
+        "region": "Hesse",
+        "city": "Frankfurt am Main",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com Singapore E-Commerce Private Limited",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Europe/Berlin",
+        "lat": 50.1169,
+        "lon": 8.6837
+      }
+    },
+    "47.88.59.79:82": {
+      "ip": "47.88.59.79",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 268,
+      "last_checked": "2025-05-10 07:28:10",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "California",
+        "city": "Minkler",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "America/Los_Angeles",
+        "lat": 36.7783,
+        "lon": -119.418
+      }
+    },
+    "83.168.72.172:8081": {
+      "ip": "83.168.72.172",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 658,
+      "last_checked": "2025-05-10 07:28:14",
+      "location": {
+        "country": "Poland",
+        "countryCode": "PL",
+        "region": "Lower Silesia",
+        "city": "Wroclaw",
+        "isp": "Korbank S. A.",
+        "org": "Korbank",
+        "as": "AS35179 Korbank S. A.",
+        "timezone": "Europe/Warsaw",
+        "lat": 51.1052,
+        "lon": 17.0408
+      }
+    },
+    "8.213.134.213:1111": {
+      "ip": "8.213.134.213",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:15",
+      "location": {
+        "country": "South Korea",
+        "countryCode": "KR",
+        "region": "Seoul",
+        "city": "Seoul",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com Singapore E-Commerce Private Limited",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Seoul",
+        "lat": 37.5658,
+        "lon": 126.978
+      }
+    },
+    "8.213.134.213:55443": {
+      "ip": "8.213.134.213",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:18",
+      "location": {
+        "country": "South Korea",
+        "countryCode": "KR",
+        "region": "Seoul",
+        "city": "Seoul",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com Singapore E-Commerce Private Limited",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Seoul",
+        "lat": 37.5658,
+        "lon": 126.978
+      }
+    },
+    "8.211.194.85:45": {
+      "ip": "8.211.194.85",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:20",
+      "location": {
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "region": "England",
+        "city": "London",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com Singapore E-Commerce Private Limited",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Europe/London",
+        "lat": 51.5081,
+        "lon": -0.1278
+      }
+    },
+    "8.213.129.15:9992": {
+      "ip": "8.213.129.15",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:21",
+      "location": {
+        "country": "South Korea",
+        "countryCode": "KR",
+        "region": "Seoul",
+        "city": "Seoul",
+        "isp": "Alibaba (US) Technology Co., Ltd.",
+        "org": "Alibaba.com Singapore E-Commerce Private Limited",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Seoul",
+        "lat": 37.5658,
+        "lon": 126.978
+      }
+    },
+    "79.110.200.27:8000": {
+      "ip": "79.110.200.27",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 441,
+      "last_checked": "2025-05-10 07:28:22",
+      "location": {
+        "country": "Poland",
+        "countryCode": "PL",
+        "region": "Lower Silesia",
+        "city": "Wroclaw",
+        "isp": "Korbank S. A.",
+        "org": "Korbank sp. z o.o.",
+        "as": "AS35179 Korbank S. A.",
+        "timezone": "Europe/Warsaw",
+        "lat": 51.1035,
+        "lon": 17.0194
+      }
+    },
+    "143.42.66.91:80": {
+      "ip": "49.245.79.71",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 705,
+      "last_checked": "2025-05-10 07:28:23",
+      "location": {
+        "country": "Singapore",
+        "countryCode": "SG",
+        "region": "South West",
+        "city": "Singapore",
+        "isp": "M1 LIMITED",
+        "org": "M1 Ltd",
+        "as": "AS4773 MobileOne Ltd. Mobile/Internet Service Provider Singapore",
+        "timezone": "Asia/Singapore",
+        "lat": 1.32525,
+        "lon": 103.749
+      }
+    },
+    "83.168.74.163:8080": {
+      "ip": "83.168.74.163",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:25",
+      "location": {
+        "country": "Poland",
+        "countryCode": "PL",
+        "region": "Lower Silesia",
+        "city": "Wroclaw",
+        "isp": "Korbank S. A.",
+        "org": "Korbank",
+        "as": "AS35179 Korbank S. A.",
+        "timezone": "Europe/Warsaw",
+        "lat": 51.1193,
+        "lon": 17.0258
+      }
+    },
+    "115.127.31.66:8080": {
+      "ip": "115.127.31.66",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:28",
+      "location": {
+        "country": "Bangladesh",
+        "countryCode": "BD",
+        "region": "Dhaka Division",
+        "city": "Dhaka",
+        "isp": "BRACNet Limited",
+        "org": "bracNet",
+        "as": "AS24342 BRACNet Limited",
+        "timezone": "Asia/Dhaka",
+        "lat": 23.7639,
+        "lon": 90.3707
+      }
+    },
+    "37.46.241.247:80": {
+      "ip": "37.46.241.247",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:30",
+      "location": {
+        "country": "Ukraine",
+        "countryCode": "UA",
+        "region": "Rivne",
+        "city": "Rivne",
+        "isp": "Content Delivery Network LTD",
+        "org": "",
+        "as": "AS13188 CONTENT DELIVERY NETWORK LTD",
+        "timezone": "Europe/Kyiv",
+        "lat": 50.6223,
+        "lon": 26.2396
+      }
+    },
+    "93.171.157.249:8080": {
+      "ip": "93.171.157.249",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:34",
+      "location": {
+        "country": "Ukraine",
+        "countryCode": "UA",
+        "region": "Crimea",
+        "city": "Alushta",
+        "isp": "Vikscom Ltd.",
+        "org": "Vikscom Ltd",
+        "as": "AS51214 Vikscom Ltd.",
+        "timezone": "Europe/Simferopol",
+        "lat": 44.6734,
+        "lon": 34.4176
+      }
+    },
+    "47.254.36.213:8081": {
+      "ip": "47.254.36.213",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:36",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "California",
+        "city": "Minkler",
+        "isp": "Alibaba Cloud LLC",
+        "org": "Alibaba Cloud - US",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "America/Los_Angeles",
+        "lat": 36.7783,
+        "lon": -119.418
+      }
+    },
+    "219.65.73.81:80": {
+      "ip": "136.232.78.138",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 961,
+      "last_checked": "2025-05-10 07:28:36",
+      "location": {
+        "country": "India",
+        "countryCode": "IN",
+        "region": "West Bengal",
+        "city": "Kolkata",
+        "isp": "Reliance Jio Infocomm Limited",
+        "org": "Reliance Jio Infocomm Limited",
+        "as": "AS55836 Reliance Jio Infocomm Limited",
+        "timezone": "Asia/Kolkata",
+        "lat": 22.5643,
+        "lon": 88.3693
+      }
+    },
+    "80.249.112.163:80": {
+      "ip": "80.91.223.152",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 402,
+      "last_checked": "2025-05-10 07:28:36",
+      "location": {
+        "country": "The Netherlands",
+        "countryCode": "NL",
+        "region": "Limburg",
+        "city": "Eygelshoven",
+        "isp": "Ferdinand Zink trading as Tube-Hosting",
+        "org": "Tube-Hosting",
+        "as": "AS49581 Ferdinand Zink trading as Tube-Hosting",
+        "timezone": "Europe/Amsterdam",
+        "lat": 50.8933,
+        "lon": 6.05805
+      }
+    },
+    "45.140.143.77:18080": {
+      "ip": "45.140.143.77",
+      "type": "socks4",
+      "anonymity": "Elite",
+      "latency_ms": 367,
+      "last_checked": "2025-05-10 07:28:37",
+      "location": {
+        "country": "The Netherlands",
+        "countryCode": "NL",
+        "region": "North Holland",
+        "city": "Amsterdam",
+        "isp": "RoyaleHosting BV",
+        "org": "RoyaleHosting BV",
+        "as": "AS212477 RoyaleHosting BV",
+        "timezone": "Europe/Amsterdam",
+        "lat": 52.352,
+        "lon": 4.9392
+      }
+    },
+    "121.43.146.222:9080": {
+      "ip": "121.43.146.222",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2398,
+      "last_checked": "2025-05-10 07:28:39",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Zhejiang",
+        "city": "Hangzhou",
+        "isp": "Hangzhou Alibaba Advertising Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 30.2943,
+        "lon": 120.1663
+      }
+    },
+    "81.169.213.169:8888": {
+      "ip": "81.169.213.169",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:40",
+      "location": {
+        "country": "Germany",
+        "countryCode": "DE",
+        "region": "State of Berlin",
+        "city": "Berlin",
+        "isp": "Strato AG",
+        "org": "Strato AG",
+        "as": "AS6724 Strato GmbH",
+        "timezone": "Europe/Berlin",
+        "lat": 52.5234,
+        "lon": 13.3224
+      }
+    },
+    "87.248.129.32:80": {
+      "ip": "87.248.129.32",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 907,
+      "last_checked": "2025-05-10 07:28:44",
+      "location": {
+        "country": "United Arab Emirates",
+        "countryCode": "AE",
+        "region": "Dubai",
+        "city": "Dubai",
+        "isp": "ITEL",
+        "org": "",
+        "as": "AS216383 ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI",
+        "timezone": "Asia/Dubai",
+        "lat": 25.0734,
+        "lon": 55.2979
+      }
+    },
+    "47.119.22.156:9098": {
+      "ip": "47.119.22.156",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2435,
+      "last_checked": "2025-05-10 07:28:46",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Guangdong",
+        "city": "Shenzhen",
+        "isp": "Addresses CNNIC",
+        "org": "Aliyun Computing Co., LTD",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 22.5455,
+        "lon": 114.0683
+      }
+    },
+    "47.90.149.238:9080": {
+      "ip": "47.90.149.238",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:49",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "Virginia",
+        "city": "Charlottesville",
+        "isp": "Alibaba.com LLC",
+        "org": "ALICLOUD-US",
+        "as": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "America/Chicago",
+        "lat": 37.4316,
+        "lon": -78.6569
+      }
+    },
+    "159.224.232.194:8888": {
+      "ip": "159.224.232.194",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 984,
+      "last_checked": "2025-05-10 07:28:51",
+      "location": {
+        "country": "Ukraine",
+        "countryCode": "UA",
+        "region": "Dnipropetrovsk Oblast",
+        "city": "Dnipro",
+        "isp": "Triolan",
+        "org": "AZ International LLC",
+        "as": "AS13188 CONTENT DELIVERY NETWORK LTD",
+        "timezone": "Europe/Kyiv",
+        "lat": 48.4653,
+        "lon": 35.033
+      }
+    },
+    "98.64.128.182:3128": {
+      "ip": "20.246.79.247",
+      "type": "socks4",
+      "anonymity": "Transparent",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:53",
+      "location": {
+        "country": "United States",
+        "countryCode": "US",
+        "region": "Virginia",
+        "city": "Boydton",
+        "isp": "Microsoft Corporation",
+        "org": "Microsoft Azure Cloud (eastus2)",
+        "as": "AS8075 Microsoft Corporation",
+        "timezone": "America/New_York",
+        "lat": 36.677696,
+        "lon": -78.37471
+      }
+    },
+    "47.116.181.146:3128": {
+      "ip": "47.116.181.146",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2386,
+      "last_checked": "2025-05-10 07:28:56",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Shanghai",
+        "city": "Shanghai",
+        "isp": "Hangzhou Alibaba Advertising Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 31.2222,
+        "lon": 121.4581
+      }
+    },
+    "8.138.149.37:8080": {
+      "ip": "8.138.149.37",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 2422,
+      "last_checked": "2025-05-10 07:28:56",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Guangdong",
+        "city": "Guangzhou",
+        "isp": "Hangzhou Alibaba Advertising Co., Ltd.",
+        "org": "Alibaba.com LLC",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 23.1181,
+        "lon": 113.2539
+      }
+    },
+    "39.104.27.89:8001": {
+      "ip": "39.104.27.89",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:28:57",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Beijing",
+        "city": "Beijing",
+        "isp": "Hangzhou Alibaba Advertising Co",
+        "org": "Aliyun Computing Co., LTD",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 39.911,
+        "lon": 116.395
+      }
+    },
+    "39.104.27.89:8004": {
+      "ip": "39.104.27.89",
+      "type": "socks4",
+      "anonymity": "Unknown",
+      "latency_ms": 9999,
+      "last_checked": "2025-05-10 07:29:00",
+      "location": {
+        "country": "China",
+        "countryCode": "CN",
+        "region": "Beijing",
+        "city": "Beijing",
+        "isp": "Hangzhou Alibaba Advertising Co",
+        "org": "Aliyun Computing Co., LTD",
+        "as": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+        "timezone": "Asia/Shanghai",
+        "lat": 39.911,
+        "lon": 116.395
+      }
+    }
+  }
+}
